@@ -17,7 +17,7 @@ public class DomesticShipment {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name="imageProduct",nullable = false,length = 500)
+    @Column(name="imageProduct",nullable = false,length = 5000)
     private String imageProduct;
     @Column(name = "productName",nullable = false,length = 200)
     private String productName;
