@@ -1,7 +1,7 @@
 package com.mirai.importback.controllers;
 
 
-import com.mirai.importback.entities.DomesticShipment;
+//import com.mirai.importback.entities.DomesticShipment;
 import com.mirai.importback.entities.ProductWholesale;
 import com.mirai.importback.services.IProductWholesaleService;
 import io.swagger.annotations.Api;
