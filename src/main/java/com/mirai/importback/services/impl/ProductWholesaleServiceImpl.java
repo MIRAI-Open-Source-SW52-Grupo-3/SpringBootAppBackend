@@ -20,7 +20,6 @@ public class ProductWholesaleServiceImpl implements IProductWholesaleService {
         this.productWholesaleRepository = productWholesaleRepository;
     }
 
-
     @Override
     @Transactional
     public ProductWholesale save(ProductWholesale productWholesale) throws Exception {

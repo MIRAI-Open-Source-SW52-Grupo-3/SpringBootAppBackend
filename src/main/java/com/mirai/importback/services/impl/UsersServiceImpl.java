@@ -21,6 +21,7 @@ public class UsersServiceImpl implements IUsersService {
     public UsersServiceImpl(IUsersRepository usersRepository) {
         this.usersRepository = usersRepository;
     }
+
     @Override
     @Transactional
     public Users save(Users users) throws Exception {
