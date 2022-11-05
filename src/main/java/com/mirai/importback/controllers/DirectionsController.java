@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/directions")
-@CrossOrigin(origins="http://localhost:4200/")
+@CrossOrigin
 @Api(tags = "directions", value="Web Services of directions")
 public class DirectionsController {
 

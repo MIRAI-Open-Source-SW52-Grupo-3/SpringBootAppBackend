@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/travelerOrders")
-@CrossOrigin(origins="http://localhost:4200/")
+@CrossOrigin
 @Api(tags = "travelerOrders", value="Web Services of Traveler Orders")
 public class TravelerOrdersController {
 

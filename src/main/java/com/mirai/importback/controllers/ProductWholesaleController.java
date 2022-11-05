@@ -16,7 +16,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/productWholesale")
-@CrossOrigin(origins="http://localhost:4200/")
+@CrossOrigin
 @Api(tags = "productWholesale", value="Web Services of product wholesale")
 public class ProductWholesaleController {
 
