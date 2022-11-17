@@ -17,7 +17,7 @@ import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/users")
-@CrossOrigin(origins = "https://import-it.netlify.app")
+@CrossOrigin
 @Api(tags = "Users", value="Web Services of Users")
 public class UsersController {
 
