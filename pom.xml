@@ -10,8 +10,8 @@
 	</parent>
 	<groupId>com.mirai</groupId>
 	<artifactId>importback</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<version>0.0.1</version>
+	<packaging>jar</packaging>
 	<name>importback</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
