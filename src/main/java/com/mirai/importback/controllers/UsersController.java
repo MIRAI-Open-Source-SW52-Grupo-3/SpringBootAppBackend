@@ -16,9 +16,9 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/api/clients")
 @CrossOrigin
-@Api(tags = "Users", value="Web Services of Users")
+@Api(tags = "Clients", value="Web Services of Users")
 public class UsersController {
 
     private IUsersService usersService;
